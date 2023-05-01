@@ -1,0 +1,34 @@
+@media screen and (min-width: 481px) and (max-width: 768px){
+    *{
+        font-size: 1em;
+    }
+    .main-heading{
+        font-size: 1.5em ;
+    }
+    .main-container{
+        height: 70vh;
+        width: 70vw;
+    }
+    .input-values{
+        height: 25vh;
+    }
+    .enter-value{
+        height: 10vh;
+    }
+    .buttons{
+        height: 25vh;
+    }
+    .result{
+        height: 10vh;
+    }
+    .convert-button{
+        width: 25%;
+    }
+    .refresh-button{
+        width: 25%;
+    }
+    #input{
+        width: 50%;
+        height: 40%;
+    }
+}

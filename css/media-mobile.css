@@ -21,4 +21,14 @@
     .result{
         height: 10vh;
     }
+    .convert-button{
+        width: 25%;
+    }
+    .refresh-button{
+        width: 25%;
+    }
+    #input{
+        width: 50%;
+        height: 40%;
+    }
 }

@@ -63,8 +63,16 @@ var number=document.getElementById('input').value;
      } 
      else if(fahrenheit1.checked && fahrenheit2.checked) {   //converting Fahrneheit into Fahrenheit
       document.getElementById('answer').innerText=`${number} F`;
+   } else{
+      console.log("error");
    }
   }
   //calling the function on button click
   convertButton=document.getElementById('convert_button');
   convertButton.addEventListener('click', checkForInputUnit);
+
+  reloadButton=document.getElementById('refresh_button');
+  reloadButton.addEventListener('click', function(){
+    location.reload(true);
+
+  });
