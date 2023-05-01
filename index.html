@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Unit Converter</title>
+</head>
+<body  >
+    <h1 class="main-heading">Temperature Unit Converter</h1>
+<div class="main-container" id="main-container">
+    <div class="input-values">
+        <div class="left">
+            <p>Please select your Input Unit</p>
+            <input type="radio" id="Kelvin" name="input-unit" value="Kelvin">
+            <label for="Kelvin">Kelvin</label><br>
+            <input type="radio" id="Celsius" name="input-unit" value="Celsius">
+            <label for="Celsius">Celsius</label><br>
+            <input type="radio" id="Fahrenheit" name="input-unit" value="Fahrenheit">
+            <label for="Fahrenheit">Fahrenheit</label>
+            <br> 
+        </div>
+        <div class="right">
+            <p>Please select your Output Unit</p>
+            <input type="radio" id="Kelvin1" name="output-unit" value="Kelvin">
+            <label for="Kelvin1">Kelvin</label><br>
+            <input type="radio" id="Celsius1" name="output-unit" value="Celsius">
+            <label for="Celsius1">Celsius</label><br>
+            <input type="radio" id="Fahrenheit1" name="output-unit" value="Fahrenheit">
+            <label for="Fahrenheit1">Fahrenheit</label>
+            <br>  
+        </div>
+    </div>
+    <div class="enter-value">
+        <input type="number" name="" id="input" placeholder="Enter Value" >
+    </div>
+  
+    <div class="result">
+        <p id="answer"></p>
+    </div>
+    <div class="buttons">
+        <button class="convert-button" id="convert_button">Convert</button>
+        <button class="refresh-button">Refresh</button>
+    </div>
+</div>
+</body>
+<script src="script.js"></script>
+</html>
