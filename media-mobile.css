@@ -1,8 +1,24 @@
 @media screen and (max-width: 480px) {
     *{
-        font-size: 0.9em;
+        font-size: 1em;
     }
     .main-heading{
         font-size: 1.5em ;
+    }
+    .main-container{
+        height: 70vh;
+        width: 80vw;
+    }
+    .input-values{
+        height: 25vh;
+    }
+    .enter-value{
+        height: 10vh;
+    }
+    .buttons{
+        height: 25vh;
+    }
+    .result{
+        height: 10vh;
     }
 }
